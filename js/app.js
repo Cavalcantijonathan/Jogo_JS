@@ -11,9 +11,7 @@ document.getElementById("botaoJogar").onclick = () => { // Arrow function
     }
 
     let caminhoImagem = `assets/images/${imagem}.jpg`;
-    document.getElementById("imagemMoeda").src = caminhoImagem;
-
-    console.log(imagem);
+    document.getElementById("imagemMoeda").src = caminhoImagem;    
 }
 
 
